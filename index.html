@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="//www.scdn.co/i/_global/favicon.png">
 </head>
-<body>
+<body >
    <div class="sidebar">
        <div class="sidebar_wraper">
            <div class="sidebar_logo">
@@ -65,44 +65,28 @@
    <div class="main">
        <div class="main-wraper">
            <div class="main_row">
-               <div class="main_row_title"><h2>minhas musicas</h2></div>
-               <div class="main_col" data-image="img/amor.jpg" data-artist="sr.nescau" data-song="so quero que voce seja felis com ou sem mim" data-file="assets/amor.mp3">   
+               <div class="main_row_title"><h2>Musicas sad</h2></div>
+               <div class="main_col" data-image="img/amor.jpg" data-artist="sr.nescau" data-song="so quero que voce seja felis" data-file="assets/amor.mp3">   
                 <img src="img/amor.jpg" alt="">
                 <h3>so quero que voce seja feliz</h3>
                 <p>Aqui vai a descriçao da musica...</p>
-            </div>
-               <div class="main_col">
-                   <img src="img/amor.jpg" alt="">
-                   <h3>Eu so quero que voce seja feliz</h3>
+                </div>
+               <div class="main_col" data-image="img/moça.jpg" data-artist="DJ LUCAS" data-song="Moça sai da sacada" data-file="assets/moça.mp3">
+                   <img src="img/moça.jpg" alt="">
+                   <h3>Moça sai da sacada </h3>
                    <p>Aqui vai a descriçao da musica...</p>
                </div>
-               <div class="main_col">
-                <img src="img/amor.jpg" alt="">
-                <h3>beat amor</h3>
-                <p>Aqui vai a descriçao da musica...</p>
-            </div>
-            <div class="main_col">
-                <img src="img/amor.jpg" alt="">
-                <h3>beat amor</h3>
-                <p>Aqui vai a descriçao da musica...</p>
-            </div>
-            <div class="main_col">
-                <img src="img/amor.jpg" alt="">
-                <h3>beat amor</h3>
-                <p>Aqui vai a descriçao da musica...</p>
-            </div>
-            <div class="main_col">
-                <img src="img/amor.jpg" alt="">
-                <h3>beat amor</h3>
-                <p>Aqui vai a descriçao da musica...</p>
-            </div>
-            <div class="main_col">
-                <img src="img/amor.jpg" alt="">
-                <h3>beat amor</h3>
-                <p>Aqui vai a descriçao da musica...</p>
-            </div>
 
-           
+               <div class="main_col" data-image="img/trevo.jpg" data-artist="DJ Lucas Beat & @Canal Sr. Nescau"  data-file="assets/trevo.mp3">
+                    <img src="img/trevo.jpg" alt="">
+                    <h3> BEAT TREVO DE 4 FOLHAS FUNK REMIX  </h3>
+                    <p>Aqui vai a descriçao da musica...</p>
+                </div>
+                <div class="main_col" data-image="img/BeatDoAmorQuerNamoraComigo.jpg" data-artist=" Sr. Nescau"  data-file="assets/NamoraComigo.mp3">
+                    <img src="img/BeatDoAmorQuerNamoraComigo.jpg" alt="">
+                    <h3> Beat Do Amor || Quer Namora Comigo  </h3>
+                    <p>Aqui vai a descriçao da musica...</p>
+                </div>
             
             
            </div>
@@ -114,20 +98,17 @@
        </div>
        <div class="player_control">
            <div class="player_control_buttons">
-                <a href=""><i class="fas fa-backward"></i> </a>
+               <a href=""><i class="fas fa-backward"></i> </a>
                 <a style="display: none;" id="pauseBtn" href="#"><i class="fas fa-pause-circle"></i> </a>
+                <a style="display: none;"  id="load" href="#"><i  class="fas fa-spinner n"></i></a>
                 <a id="playBtn" href="#"><i class="fas fa-play-circle"></i> </a>
-                <a href="#"><i class="fas fa-forward"></i></a>
+                <a href="#"><i class="fas fa-forward"></i></a> 
+                
            </div>
-           <div class="player_control_progress">
-               <div style="width: 10%;" class="player_control_progress_2">
-
-               </div>
-           </div>
-       </div>
+           <audio id="audioplayer" controls >
+            </div>
    </div>
-   <audio id="audioplayer" style="position:absolute ; top: 0; z-index: -999; opacity: 0;" controls>
-
+  
    </audio>
    <script src="js/all.min.js"></script>
   <script src="index.js"></script>
